@@ -21,6 +21,7 @@ body {
 .link:hover {
   color: black;
 }
+.dropdown > .link:focus,
 .dropdown {
   position: relative;
 }
@@ -33,6 +34,7 @@ body {
   border-radius: 0.25;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, -1);
   opacity: 0;
+  pointer-events: none;
   transform: translate(-10px);
   transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
 }
