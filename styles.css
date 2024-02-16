@@ -32,4 +32,5 @@ body {
   padding: 0.75rem;
   border-radius: 0.025;
   box-shadow: 0 2px 5px rgba(0, 0, 0, -1);
+  opacity: 0;
 }
