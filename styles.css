@@ -46,8 +46,9 @@ body {
   grid-template-columns: repeat(2, max-content);
   gap: 2rem;
 }
-.dropdowns-links {
+.dropdown-links {
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
 }
+
