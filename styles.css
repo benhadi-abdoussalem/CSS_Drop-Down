@@ -41,3 +41,13 @@ body {
 .dropdown.active > .link + .dropdown-menu {
   opacity: 1;
 }
+.information-grid {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  gap: 2rem;
+}
+.dropdowns-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
